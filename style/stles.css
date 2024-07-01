@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Inter", sans-serif !important;
+}
+
+:root {
+    --text-color: #ff5579;
+    --text-white: white;
+}
+
+.container {
+    margin: 0px 130px;
+}
+
+.portfolio {
+    display: flex;
+    margin-top: 30px;
+}
+
+.left-section {
+    margin-right: 190px;
+    text-align: center;
+}
+
+.left-section img{
+    width: 220px;
+    height: 270px;
+    border-radius: 40px;
+    
+}
+
+
+.profile-icons {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0px;
+}
+
+.icon-1:hover {
+    color: var(--text-color);
+    cursor: pointer;
+    scale: 1.6;
+}
+
+.icon-2:hover {
+    color: var(--text-color);
+    cursor: pointer;
+    scale: 1.6;
+}
+
+.icon-3:hover {
+    color: var(--text-color);
+    cursor: pointer;      
+    scale: 1.6;
+}
+
+.icon-4:hover {
+    color: var(--text-color);
+    cursor: pointer;
+    scale: 1.6;
+}
+
+.hire-btn {
+    width: 70%;
+    padding: 10px 50px;
+    border: 1px solid #333333;
+    background: none;
+    border-radius: 10px;
+}
+
+.hire-btn:hover {
+    background-color: #ff5583;
+    color: var(--text-white);
+    cursor: pointer;
+    scale: 1.1;
+    border: none;
+}
+
+.right-section .hello-text {
+    color: var(--text-color);
+    font-size: 24px;
+    font-weight: normal;
+}
+
+
+.right-section h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.right-section p {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 28px;
+    color: #333333;
+
+}
+
+.experience {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience .card {
+    text-align: center;
+}
+
+.experience .card h1 {
+    color: var(--text-color);
+    font-size: 46px;
+    font-weight: 400;
+}
+
+.experience .card span {
+    font-size: 22px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.right-section-2 {
+    margin-top: 90px;
+}
+
+.right-section-2 .hello-text {
+    color: var(--text-color);
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.right-section-2 h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #181818;
+}
+
+
+.right-section-2 p {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: normal;
+    color: #333333;
+
+}
+
+.right-section-3 {
+    margin-top: 90px;
+}
+
+.right-section-3 .hello-text {
+    color: #ff5583;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.right-section-3 h1 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #181818;
+}
+
+.section span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 22.24px;
+}
+
+.section h1 {
+   
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #181818;
+}
+
+.right-section-4 {
+    margin-top: 90px;
+}
+
+.right-section-4 .hello-text {
+    color: var(--text-color);
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.right-section-4 h1 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #181818;
+}
+
+.services-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-1 {
+    text-align: center;
+    border: 1px solid var(--text-color);
+    background-color: none;
+    border-radius: 20px;
+    padding: 10px 50px;
+}
+
+.card-2 {
+    text-align: center;
+    border: 1px solid #333333;
+    background-color: none;
+    border-radius: 20px;
+    padding: 10px 50px;
+}
+
+.card-3 {
+    text-align: center;
+    border: 1px solid #333333;
+    background-color: none;
+    border-radius: 20px;
+    padding: 10px 50px;
+}
+
+.services-card h2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #181818;
+}
+
+.services-card span {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.24px;
+    color: #333333;
+}
+
+.right-section-5 {
+    margin-top: 90px;
+}
+
+.right-section-4 .hello-text {
+    color: var(--text-color);
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.right-section-5 h1 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #181818;
+}
+
+.imges {
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.Portfolio-section {
+    margin-top: 90px;
+
+}
+
+.protfolio-section .hello-text {
+    color: var(--text-color);
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.protfolio-section h1 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #181818;
+}
+
+.testimonial {
+    margin-top: 90px;
+}
+
+.testimonial h1 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #181818;
+}
+
+.testimonal-card {
+    border: 1px solid #333333;
+    border-radius: 20px;
+    padding: 50px;
+
+}
+
+.testimonal-card-detailes {
+    display: flex;
+    align-items: center;
+}
+
+.user-details {
+    margin-left: 25px;
+}
+
+.user-details h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.05px;
+    color: #181818;
+}
+
+.user-details span {
+    font-weight: 400;
+    font-size: 20px;
+    color: #181818;
+}
+
+.brands-section {
+    margin-top: 90px;
+}
+
+.brands-section h1 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #181818;
+}
+
+.brands-img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.contact-section {
+    margin-top: 90px;
+}
+
+.form-div {
+    margin-top: 40px;
+}
+
+.form-div label {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.form-input {
+    border: none;
+    border-bottom: 1px solid;
+    width: 70%;
+    margin: 30px 0px 30px 0px;
+}
+
+.form-input:focus {
+    outline: none;
+
+}
+
+.hire-btn-2 {
+    width: 190px;
+    height: 60px;
+    border: 1px solid #999999;
+    background: none;
+    border-radius: 20px;
+}
+
+.hire-btn-2:hover {
+    background-color: #ff5583;
+    color: var(--text-white);
+    cursor: pointer;
+    scale: 1.1;
+    border: none;
+}
